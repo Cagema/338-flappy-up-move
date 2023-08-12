@@ -56,7 +56,7 @@ public class GameUI : MonoBehaviour
 
     public void HideHelpText()
     {
-        _helpText.enabled = false;
+        _helpText.gameObject.SetActive(false);
     }
 
     public void ShowEndgameMenu()

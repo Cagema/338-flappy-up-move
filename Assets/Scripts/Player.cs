@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     private void ChangeDir()
     {
         _dir = new Vector2(-_dir.x, _dir.y);
-        _sr.flipX = _dir.x > 0;
+        _sr.flipX = _dir.x < 0;
     }
 
     private void Update()
